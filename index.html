@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+<html lang="en">
+	<head>
+		<title> Search </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+#main {
+	display: grid;
+	grid-template-columns: auto;
+	margin: 100px;
+}
+
+#heading {
+	font-family: "Arimo", Verdana, Arial;
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+}
+
+div > form {
+	text-align: center;
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: auto;
+}
+
+#search {
+	height: 40px;
+	width: 100%;	
+	max-width: 400px;
+	min-width: 150px;
+}
+</style>
+	</head>
+	<body>
+		<div id="main">
+			<h1 id="heading"> Google </h1>
+			
+			<form action = "https://google.com/search">
+				<div>
+					<input id="search" type=text name=q> 
+				</div>
+				<div id="submit"> 
+					<input type=submit value="Google Search">
+					<input type=submit value="I'm Feeling Lucky">
+				</div>
+
+			</form>
+		</div>
+
+	</body>
+</html>
