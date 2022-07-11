@@ -1,8 +1,8 @@
 import javax.swing.*;
-import javax.swing.border.Border;
+//import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.*; 
-import java.awt.GridLayout;
+//import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 
