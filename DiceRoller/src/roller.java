@@ -1,10 +1,12 @@
 import javax.swing.*;
-import javax.swing.border.Border;
+//import javax.swing.border.Border;
 import java.awt.*;
+/*
 import java.awt.event.*; 
 import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
+*/
 
 public class roller {
 
@@ -60,9 +62,10 @@ public class roller {
 			StdOut.print("+");
 		StdOut.println(input[2] + " =");
 		StdOut.println();
+		*/
 		StdOut.println(total);
 		StdOut.println();
-		*/
+		
 		
 	}
 
@@ -82,6 +85,7 @@ public class roller {
 			input[2] = 0;
 		}
 			*/
+		StdOut.println(raw_input);
 		
 		return input;
 	}
